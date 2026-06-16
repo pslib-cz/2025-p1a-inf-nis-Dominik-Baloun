@@ -1,0 +1,274 @@
+<mxfile host="Electron">
+  <diagram name="Indie Game Activity Diagram Connected" id="5a1uh5CwRR8EuDBdsVMh">
+    <mxGraphModel dx="3433" dy="2407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6Hv0zTaPCts1RhANW88n-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;" value="Activity Diagram – Informační Systém pro Vydávání a Propagaci Indie Her" vertex="1">
+          <mxGeometry height="35" width="1400" x="100" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-2" parent="1" style="swimlane;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;horizontal=1;" value="Kupující" vertex="1">
+          <mxGeometry height="2600" width="200" x="20" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-82" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="2650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-3" parent="1" style="swimlane;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;horizontal=1;direction=east;" value="Systém" vertex="1">
+          <mxGeometry height="2600" width="300" x="220" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-29" parent="6Hv0zTaPCts1RhANW88n-3" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Načtení detailu projektu (popis, obrázky [NFR1], financování [FR9])" vertex="1">
+          <mxGeometry height="55" width="187" x="15" y="1315" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-49" parent="6Hv0zTaPCts1RhANW88n-3" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Uložení projektu do DB + Audit log [NFR6]" vertex="1">
+          <mxGeometry height="55" width="175" x="20" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-4" parent="1" style="swimlane;startSize=30;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;horizontal=0;rotation=90;" value="Prodejce" vertex="1">
+          <mxGeometry height="232.5" width="2611.25" x="-666.87" y="1239.38" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-5" parent="1" style="ellipse;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="355" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-6" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Otevření aplikace" vertex="1">
+          <mxGeometry height="40" width="160" x="290" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-7" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Přihlášen?" vertex="1">
+          <mxGeometry height="60" width="100" x="320" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-8" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Zobrazení přihlašovací stránky" vertex="1">
+          <mxGeometry height="45" width="170" x="285" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-9" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Registrace nebo Přihlášení?" vertex="1">
+          <mxGeometry height="60" width="110" x="315" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-10" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Vyplnění reg. formuláře (jméno, e-mail, heslo, role)" vertex="1">
+          <mxGeometry height="55" width="170" x="35" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-11" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Validace polí [NFR7] + HTTPS [NFR3]" vertex="1">
+          <mxGeometry height="55" width="180" x="240" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-12" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Data platná?" vertex="1">
+          <mxGeometry height="60" width="110" x="305" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-13" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Zobrazení chybové hlášky" vertex="1">
+          <mxGeometry height="45" width="170" x="240" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-14" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Hashování hesla [NFR4] + uložení účtu do DB" vertex="1">
+          <mxGeometry height="55" width="180" x="250" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-15" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Odeslání potvrzovacího e-mailu" vertex="1">
+          <mxGeometry height="45" width="170" x="260" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-16" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d6b656;" value="Vyplnění přihlašovacích údajů (e-mail, heslo)" vertex="1">
+          <mxGeometry height="55" width="175" x="530" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-17" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Ověření přihlašovacích údajů přes HTTPS [NFR3]" vertex="1">
+          <mxGeometry height="55" width="180" x="255" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-18" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Přihlášení úspěšné?" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-19" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Zobrazení chyby přihlášení" vertex="1">
+          <mxGeometry height="50" width="160" x="455" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-20" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Vytvoření relace uživatele" vertex="1">
+          <mxGeometry height="45" width="190" x="270" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-21" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Role uživatele?" vertex="1">
+          <mxGeometry height="65" width="110" x="315" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-22" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Dashboard kupujícího" vertex="1">
+          <mxGeometry height="40" width="165" x="35" y="1115" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-23" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Nastavení herních preferencí (žánr, platforma, stav) [FR2]" vertex="1">
+          <mxGeometry height="55" width="175" x="30" y="1175" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-24" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Uložení preferencí do profilu [NFR7]" vertex="1">
+          <mxGeometry height="55" width="175" x="240" y="1175" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-25" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Zadání dotazu a filtrů (žánr, platforma, stav) [FR3]" vertex="1">
+          <mxGeometry height="55" width="175" x="30" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-26" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Filtrování bez obnovení stránky [NFR5] přes HTTPS [NFR3]" vertex="1">
+          <mxGeometry height="55" width="185" x="235" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-27" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Zobrazení výsledků (vydané i připravované hry)" vertex="1">
+          <mxGeometry height="50" width="175" x="30" y="1335" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-28" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Výběr konkrétní hry / projektu [FR4]" vertex="1">
+          <mxGeometry height="50" width="175" x="30" y="1405" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-30" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Zobrazení detailní stránky projektu" vertex="1">
+          <mxGeometry height="45" width="165" x="35" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-31" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Kliknutí na „Sledovat“ [FR8]" vertex="1">
+          <mxGeometry height="45" width="165" x="35" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-32" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Přidání projektu do seznamu sledovaných" vertex="1">
+          <mxGeometry height="45" width="180" x="240" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-33" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Potvrzení sledování zobrazeno" vertex="1">
+          <mxGeometry height="45" width="165" x="35" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-34" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Projekt ve vývoji?" vertex="1">
+          <mxGeometry height="60" width="130" x="52" y="1675" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-35" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Kliknutí na „Podpořit projekt“ [FR5]" vertex="1">
+          <mxGeometry height="50" width="165" x="35" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-36" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Zadání výše příspěvku" vertex="1">
+          <mxGeometry height="45" width="165" x="35" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-37" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Validace platebních údajů [NFR7] přes HTTPS [NFR3]" vertex="1">
+          <mxGeometry height="50" width="180" x="240" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-38" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Platba úspěšná?" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="1900" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-39" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Zobrazení chyby platby" vertex="1">
+          <mxGeometry height="50" width="150" x="455" y="1900" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-40" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Aktualizace financování [FR9] + Audit log [NFR6]" vertex="1">
+          <mxGeometry height="55" width="180" x="240" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-41" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Zobrazení aktualizovaného stavu financování" vertex="1">
+          <mxGeometry height="55" width="175" x="30" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-42" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d6b656;" value="Dashboard prodejce" vertex="1">
+          <mxGeometry height="40" width="165" x="535" y="1115" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-43" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d6b656;" value="Nový nebo existující projekt?" vertex="1">
+          <mxGeometry height="65" width="150" x="543" y="1175" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-44" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d6b656;" value="Vyplnění formuláře projektu [FR6]" vertex="1">
+          <mxGeometry height="60" width="175" x="530" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-45" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d6b656;" value="Nahrání obrázku max 10 MB [NFR1]" vertex="1">
+          <mxGeometry height="45" width="165" x="535" y="1345" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-46" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Validace polí [NFR7] + kontrola velikosti souboru [NFR1]" vertex="1">
+          <mxGeometry height="55" width="185" x="232.5" y="1435" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-47" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Data platná?" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="1485" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-48" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Zobrazení chybové hlášky" vertex="1">
+          <mxGeometry height="50" width="160" x="455" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-50" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d6b656;" value="Potvrzení uložení projektu" vertex="1">
+          <mxGeometry height="50" width="165" x="535" y="1565" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-51" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d6b656;" value="Sepsání aktualizace o vývoji [FR7]" vertex="1">
+          <mxGeometry height="50" width="165" x="535" y="1635" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-52" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Validace obsahu aktualizace [NFR7]" vertex="1">
+          <mxGeometry height="50" width="175" x="245" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-53" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Uložení aktualizace + Audit log [NFR6]" vertex="1">
+          <mxGeometry height="50" width="175" x="245" y="1770" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-54" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Detekce změny projektu [FR10]" vertex="1">
+          <mxGeometry height="60" width="200" x="235" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-55" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Odeslání oznámení sledujícím uživatelům [FR10]" vertex="1">
+          <mxGeometry height="55" width="180" x="245" y="2150" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-56" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Přijetí oznámení (kupující)" vertex="1">
+          <mxGeometry height="45" width="170" x="35" y="2225" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-57" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d6b656;" value="Přijetí oznámení (prodejce)" vertex="1">
+          <mxGeometry height="45" width="165" x="535" y="2225" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-58" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Plánovač – spuštění každých 24 h [NFR8]" vertex="1">
+          <mxGeometry height="50" width="185" x="245" y="2300" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-59" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Vytvoření zálohy databáze [NFR8]" vertex="1">
+          <mxGeometry height="45" width="175" x="255" y="2370" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-60" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Záloha úspěšná?" vertex="1">
+          <mxGeometry height="60" width="120" x="307" y="2435" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-61" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Upozornění administrátorovi" vertex="1">
+          <mxGeometry height="50" width="160" x="455" y="2435" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-62" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Záznam výsledku do logu [NFR6]" vertex="1">
+          <mxGeometry height="45" width="175" x="255" y="2515" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-63" parent="1" style="ellipse;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="353" y="2585" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-64" parent="1" style="ellipse;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="356" y="2588" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-65" parent="1" style="ellipse;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="361" y="2593" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-66" parent="1" style="text;html=1;fontStyle=1;fontSize=12;" value="Legenda" vertex="1">
+          <mxGeometry height="25" width="160" x="760" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-67" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Kupující" vertex="1">
+          <mxGeometry height="30" width="160" x="760" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-68" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Systém" vertex="1">
+          <mxGeometry height="30" width="160" x="760" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-69" parent="1" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d6b656;" value="Prodejce" vertex="1">
+          <mxGeometry height="30" width="160" x="760" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-70" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Chyba / výjimka" vertex="1">
+          <mxGeometry height="30" width="160" x="760" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-71" parent="1" style="text;html=1;" value="FR# = Funkční požadavek" vertex="1">
+          <mxGeometry height="25" width="200" x="760" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-72" parent="1" style="text;html=1;" value="NFR# = Nefunkční požadavek" vertex="1">
+          <mxGeometry height="25" width="200" x="760" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-73" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6Hv0zTaPCts1RhANW88n-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-74" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6Hv0zTaPCts1RhANW88n-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-75" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="6Hv0zTaPCts1RhANW88n-21" value="Ano">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="-10" as="offset" />
+            <Array as="points">
+              <mxPoint x="230" y="220" />
+              <mxPoint x="230" y="1005" />
+              <mxPoint x="370" y="1005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-76" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6Hv0zTaPCts1RhANW88n-8" value="Ne">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-77" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6Hv0zTaPCts1RhANW88n-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-78" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="6Hv0zTaPCts1RhANW88n-10" value="Registrace">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-79" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="6Hv0zTaPCts1RhANW88n-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-80" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6Hv0zTaPCts1RhANW88n-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Hv0zTaPCts1RhANW88n-81" edge="1" parent="1" source="6Hv0zTaPCts1RhANW88n-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="6Hv0zTaPCts1RhANW88n-13" value="Ne">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="535" />
+              <mxPoint x="210" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
